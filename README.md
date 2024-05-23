@@ -19,11 +19,11 @@ Columns: EmployeeID, TitleCode, AgencyCode, FiscalYear, PayrollNumber, RegularHo
 DimEmployee: EmployeeID, LastName, FirstName, AgencyStartDate, WorkLocationBorough, LeaveStatusasofJune30, BaseSalary
 
 3.	Aggregate Tables:
-AggregatePayrollByAgency: AgencyCode, TotalPayrollCost
-AggregateOvertimeByTitle: TitleCode, TotalOvertimePaid
-AverageSalaryByBorough: WorkLocationBorough, AverageSalary
-AggregateHoursByEmployee: EmployeeID, TotalRegularHours, TotalOvertimeHours
-AggregatePaymentsByFiscalYearAndAgency: FiscalYear, AgencyCode, TotalPayments
+- AggregatePayrollByAgency: AgencyCode, TotalPayrollCost
+- AggregateOvertimeByTitle: TitleCode, TotalOvertimePaid
+- AverageSalaryByBorough: WorkLocationBorough, AverageSalary
+- AggregateHoursByEmployee: EmployeeID, TotalRegularHours, TotalOvertimeHours
+- AggregatePaymentsByFiscalYearAndAgency: FiscalYear, AgencyCode, TotalPayments
 
 4.	Step-by-Step Description of the Processes Involved
 Extract Data from Source Systems:
